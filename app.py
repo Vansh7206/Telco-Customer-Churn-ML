@@ -4,9 +4,7 @@ import numpy as np
 import joblib
 import os
 
-# -------------------------------
 # Load model and columns
-# -------------------------------
 model = joblib.load("models/churn_logistic_model.pkl")
 model_columns = joblib.load("models/model_columns.pkl")
 
